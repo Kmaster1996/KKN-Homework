@@ -65,6 +65,8 @@ print('The sum of the numbers that are divisible by 3 is: $sum4');
 
 print('');
 
+// If else practice.
+
 print('Practice If else');
 
 print('In a Water Park...');
@@ -81,6 +83,15 @@ if (height >= 130 && height < 145) {
 } else {
   print('You can enjoy responsibly!');
 }
+}
+// For loop practice
+int rows = 8;
+
+for (int i = 1; i <= rows; i++){
+  for (int j = 1; j <= i; j*= 2) {
+    print(j);
+  }
+  print('');
 }
 }
 
