@@ -84,7 +84,9 @@ if (height >= 130 && height < 145) {
   print('You can enjoy responsibly!');
 }
 }
+print('');
 // For loop practice
+print('For loop practice');
 int rows = 8;
 
 for (int i = 1; i <= rows; i++){
@@ -92,6 +94,14 @@ for (int i = 1; i <= rows; i++){
     print(j);
   }
   print('');
+}
+print('');
+// While loop practice
+print('while loop practice');
+int k =  1;
+while (k <= 8) {
+  print('Number is: $k');
+  k*=2;
 }
 }
 
