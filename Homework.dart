@@ -62,6 +62,26 @@ for (int number2 in divi3Numbers) {
   sum4 += number2;
 }
 print('The sum of the numbers that are divisible by 3 is: $sum4');
+
+print('');
+
+print('Practice If else');
+
+print('In a Water Park...');
+
+int height = 155;
+print('You height is: $height');
+if (height < 130)  {
+  print('you are too short for swim in a pool');
+} else {
+if (height >= 130 && height < 145) {
+  print('You can swim only in kid zone');
+} else if (height >= 145 && height < 160) {
+  print('You can swim, but cannot use slider');
+} else {
+  print('You can enjoy responsibly!');
+}
+}
 }
 
 
