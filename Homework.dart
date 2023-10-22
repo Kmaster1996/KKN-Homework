@@ -1,3 +1,8 @@
+//  Defind functiom
+int calculateSquare(int number) {
+  return number * number;
+}
+
 // 1. given a list of numbers, find the sum of all the numbers
 void main() {
   print('1. given a list of numbers, find the sum of all the numbers');
@@ -103,6 +108,29 @@ while (k <= 8) {
   print('Number is: $k');
   k*=2;
 }
+
+print('');
+
+int limit = 100;
+int a = 0;
+int b = 1;
+
+print('Fibonacci Sequence up to: $limit');
+print(a);
+print(b);
+
+while (a + b <= limit) {
+  int next = a + b ;
+  print(next);
+  a = b;
+  b = next;
+  }
+
+  print('');
+
+  int num = 7;
+  int result = calculateSquare(num);
+  print('The square of $num is $result');
 }
 
 
