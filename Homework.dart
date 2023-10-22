@@ -2,6 +2,13 @@
 int calculateSquare(int number) {
   return number * number;
 }
+int calculateFactorial(int num) {
+  if (num == 0) {
+    return 1;
+  } else {
+    return num * calculateFactorial(num-1);
+  }
+}
 
 // 1. given a list of numbers, find the sum of all the numbers
 void main() {
@@ -128,9 +135,15 @@ while (a + b <= limit) {
 
   print('');
 
-  int num = 7;
+  int num = 4;
+  print('The number is $num');
+  print('');
   int result = calculateSquare(num);
   print('The square of $num is $result');
+
+  int factorial = calculateFactorial(num);
+  print('The factorial of $num is $factorial');
+
 }
 
 
